@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+::selection {
+    background: rgb(54, 107, 89);
+}
+
+.container-geral {
+    background-color: rgb(41, 41, 41);
+    height: 100%;
+    width: 100vw;
+}
+
+.container-geral > nav {
+    background-color: rgb(122, 122, 122);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 5vh;
+    width: 100vw;
+}
+
+.container-geral > nav > a {
+    color: white;
+    margin: 15px 20px;
+    padding-bottom: 20px;
+}
+
+.container-geral > nav > a:hover {
+    color:aquamarine;
+    border-bottom: 1px solid aquamarine;
+    transition: 0.3s ease-in-out;
+}
+
+.container-geral > nav > a:last-of-type {
+    margin-left: auto;
+}
+
+.container {
+    align-items: center;
+    color: rgb(212, 212, 212);
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+}
+
+.container > h1 {
+    margin-bottom: 3%;
+}
+
+.container > img {
+    border: 2px solid aquamarine;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+
+.container > p {
+    padding: 10px 0px;
+}
+
+.container > p > #tooltip {
+    border-bottom: 1px dotted greenyellow;
+    color: rgb(161, 79, 79);
+    cursor: pointer;
+    font-style: italic;
+}
+
+.container-sobre {
+    background-color: brown;
+    display: flex;
+    margin: 20px;
+    height: 10vh;
+    width: 50vw;
+}
+
+.container-sobre > .esquerda {
+    align-items: center;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    height: 12vh;
+    width: 50%;
+}
+
+.container-sobre > .direita {
+    align-items: center;
+    background-color: rgb(192, 109, 100);
+    display: flex;
+    flex-direction: column;
+    height: 12vh;
+    width: 50%;
+}
+
+.meus-links {
+    align-items: center;
+    background-color: #7a7a7a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 10vh;
+    margin: 10px;
+    width: 40vw;
+}
+
+.container > input {
+    font-size: 15px;
+    margin: 20px;
+    width: 20vw;
+}
+
+.container > textarea {
+    height: 25vh;
+    margin: 20px;
+    width: 20vw;
+}
+
+.container > button {
+    background-color: rgb(63, 63, 63);
+    border: 0px;
+    border-radius: 8px;
+    color: aquamarine;
+    height: 45px;
+    margin: 10px;
+    width: 90px;
+}
+
+.container > button:hover {
+    border: 1px solid aquamarine;
+    cursor: pointer;
+    opacity: .8;
+    transition: .3s ease-in-out;
+}
